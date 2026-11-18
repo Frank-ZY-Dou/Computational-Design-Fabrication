@@ -3,11 +3,11 @@
 
 <a href="https://frank-zy-dou.github.io/blog/felis/"><img src="https://img.shields.io/badge/Project_Page-green" alt="Project Page"></a>
 
-<a href="https://frank-zy-dou.github.io/">Zhiyang Dou</a><sup>*&dagger;</sup>,
-<a href="https://scholar.google.com/citations?user=fpo7qVYAAAAJ&hl=en">Pengfei Ye</a><sup>*</sup>,
-<a href="https://yuxiang-ma.github.io/">Yuxiang Ma</a><sup>*</sup>,
-<a href="https://www.linkedin.com/in/kens01">Ken Suzuki</a><sup>*</sup>,
-<a href="https://zeshiyang.github.io/">Zeshi Yang</a><sup>*</sup>,
+<a href="https://frank-zy-dou.github.io/">Zhiyang Dou</a><sup>&#42;&dagger;</sup>,
+<a href="https://scholar.google.com/citations?user=fpo7qVYAAAAJ&hl=en">Pengfei Ye</a><sup>&#42;</sup>,
+<a href="https://yuxiang-ma.github.io/">Yuxiang Ma</a><sup>&#42;</sup>,
+<a href="https://www.linkedin.com/in/kens01">Ken Suzuki</a><sup>&#42;</sup>,
+<a href="https://zeshiyang.github.io/">Zeshi Yang</a><sup>&#42;</sup>,
 <a href="https://yh2371.github.io/">Yiming Huang</a>,
 <a href="https://livingsoul.weebly.com/">WeiHsi Chen</a>,
 <a href="https://yujiewang.info/">Yujie Wang</a>,
@@ -18,7 +18,7 @@
 <a href="https://sung.seas.upenn.edu/people/sung/">Cynthia Sung</a>,
 <a href="https://lingjie0206.github.io/">Lingjie Liu</a>
 
-<sup>*</sup>Co-first authors&emsp;<sup>&dagger;</sup>Project lead
+<sup>&#42;</sup>Co-first authors&emsp;<sup>&dagger;</sup>Project lead
 </div>
 
 <p align="center">
