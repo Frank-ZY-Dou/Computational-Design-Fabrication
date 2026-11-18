@@ -1,0 +1,93 @@
+{
+  "policy": "Felis mid-air righting",
+  "task": "righting",
+  "network": {
+    "actor_hidden_dims": [
+      128,
+      64
+    ],
+    "activation": "elu",
+    "num_obs": 28,
+    "num_actions": 6
+  },
+  "joint_names": [
+    "waist_yaw",
+    "waist_pitch",
+    "hip_FR",
+    "hip_FL",
+    "hip_RL",
+    "hip_RR"
+  ],
+  "default_dof_pos": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "action_scale": 0.5,
+  "clip_actions": 8,
+  "obs_scales": {
+    "ang_vel": 0.25,
+    "dof_pos": 1,
+    "dof_vel": 0.05
+  },
+  "command_scale": [
+    2,
+    2,
+    0.25
+  ],
+  "obs_layout": [
+    "base_ang_vel(body frame, rad/s) * 0.25            [0:3]",
+    "projected_gravity(unit, body frame)               [3:6]",
+    "commands * command_scale (all zero for this task)  [6:9]",
+    "(dof_pos - default_dof_pos) * 1.0                 [9:15]",
+    "dof_vel * 0.05                                    [15:21]",
+    "previous raw action                               [21:27]",
+    "(drop_height - 2.5) / 0.5, release height (m) [27:28]"
+  ],
+  "quat_convention": "wxyz; projected_gravity = R(q)^T @ [0, 0, -1]",
+  "obs_drop_height": true,
+  "drop_height_obs": {
+    "center": 2.5,
+    "scale": 0.5
+  },
+  "imu_link": "cross_body",
+  "dof_vel_obs_clip": 18,
+  "ang_vel_obs_clip": 34.9,
+  "joint_limits_per_joint": {
+    "waist_yaw": [
+      -0.7,
+      0.7
+    ],
+    "waist_pitch": [
+      -0.7,
+      0.7
+    ],
+    "hip_FR": [
+      -2.62,
+      1.25
+    ],
+    "hip_FL": [
+      -2.62,
+      1.25
+    ],
+    "hip_RL": [
+      -1.35,
+      2.62
+    ],
+    "hip_RR": [
+      -1.35,
+      2.62
+    ]
+  },
+  "control": {
+    "type": "position PD on motor output shaft",
+    "kp": 11.2,
+    "kd": 0.3,
+    "rate_hz": 50,
+    "clamp_target_to_limit": true
+  },
+  "drop_height_note": "set_drop_height(h): h = the measured height of the waist above the landing surface at the release, m"
+}
