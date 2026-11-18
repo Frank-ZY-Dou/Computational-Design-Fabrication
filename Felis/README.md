@@ -1,5 +1,24 @@
 <div align="center">
 <h1>Felis: A Cat-Inspired Robot with an Actuated Spine</h1>
+
+<a href="https://frank-zy-dou.github.io/blog/felis/"><img src="https://img.shields.io/badge/Project_Page-green" alt="Project Page"></a>
+
+<a href="https://frank-zy-dou.github.io/">Zhiyang Dou</a><sup>*&dagger;</sup>,
+<a href="https://scholar.google.com/citations?user=fpo7qVYAAAAJ&hl=en">Pengfei Ye</a><sup>*</sup>,
+<a href="https://yuxiang-ma.github.io/">Yuxiang Ma</a><sup>*</sup>,
+<a href="https://www.linkedin.com/in/kens01">Ken Suzuki</a><sup>*</sup>,
+<a href="https://zeshiyang.github.io/">Zeshi Yang</a><sup>*</sup>,
+<a href="https://yh2371.github.io/">Yiming Huang</a>,
+<a href="https://livingsoul.weebly.com/">WeiHsi Chen</a>,
+<a href="https://yujiewang.info/">Yujie Wang</a>,
+<a href="https://www.minghaoguo.com/">Minghao Guo</a>,
+<a href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html">Wenping Wang</a>,
+<a href="https://i.cs.hku.hk/~taku/">Taku Komura</a>,
+<a href="https://people.csail.mit.edu/wojciech/">Wojciech Matusik</a>,
+<a href="https://sung.seas.upenn.edu/people/sung/">Cynthia Sung</a>,
+<a href="https://lingjie0206.github.io/">Lingjie Liu</a>
+
+<sup>*</sup>Co-first authors&emsp;<sup>&dagger;</sup>Project lead
 </div>
 
 <p align="center">
