@@ -31,7 +31,9 @@ Felis is a small quadruped with a two-axis spine (waist yaw and pitch) and one m
 twisting and bending its spine; the same six motors also make it walk and jump.
 
 This folder contains the inference code and trained policies for three skills. Training code, simulation assets and 3D models are not
-included. More details, including the motors and the models, will be open-sourced later.
+included.
+
+More details, including the motors and the models, will be open-sourced later.
 
 | Skill | Policy | Network (ELU MLP) | Parameters |
 |---|---|---|---|
